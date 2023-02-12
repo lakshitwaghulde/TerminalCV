@@ -1,0 +1,38 @@
+#command{
+    width: 300px;
+    border: 0px;
+    background-color: rgb(45, 9, 34);
+    color: rgb(255, 255, 255);
+    outline-width: 0;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 16px;
+}
+
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0px;
+}
+
+html {
+    line-height: 1.15;
+    text-size-adjust: 100%;
+}
+
+#contact a {
+    color: #d9d813;
+}
+
+*{
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 16px;
+}
+
+#about, #education, #projects, #skills, #contact, #connect, #error, #help, #download{
+    display:none;
+}
+
+#resume-container{
+    padding: 15px;
+}
