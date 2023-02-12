@@ -20,7 +20,7 @@ cmd.addEventListener("keyup", function(event){
         cycle_command("down");
     }
 
-    else if(event.keyCode === 32 && event.ctrlKey){
+    else if(event.keyCode === 16){
         event.preventDefault();
         tab_completion();
     }
